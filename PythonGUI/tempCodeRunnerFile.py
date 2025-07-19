@@ -1,1 +1,1 @@
-root.mainloop()
+root.config(menu=mainmenu)
