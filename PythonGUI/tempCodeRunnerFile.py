@@ -1,1 +1,2 @@
-root.config(menu=mainmenu)
+root=Tk()
+root.geometry("655x355")

@@ -1,4 +1,20 @@
 ## Message Box:->tkinter.messagebox ek module hai jo GUI me pop-up dialogs dikhane ke kaam aata hai ― jaise alert, info, warning, error, confirmation, etc.
+
+# Tkinter MessageBox Functions
+
+# Function Name           | Description
+# -----------------------|-------------------------------------------
+# showinfo(title, msg)    | Shows informational pop-up (ℹ️)
+# showwarning(title, msg) | Shows warning pop-up (⚠️)
+# showerror(title, msg)   | Shows error pop-up (❌)
+# askquestion(title, msg) | Yes/No dialog, returns 'yes' or 'no'
+# askokcancel(title, msg) | OK/Cancel dialog, returns True/False
+# askyesno(title, msg)    | Yes/No dialog, returns True/False
+# askretrycancel(title, msg)| Retry/Cancel dialog, returns True/False
+
+
+
+
 from tkinter import *
 import tkinter.messagebox as tmsg
 root=Tk()
@@ -51,4 +67,5 @@ m3.add_command(label="Rate us",command=rate)
 mainmenu.add_cascade(label="Help",menu=m3)
 root.config(menu=mainmenu)
 root.mainloop()
+
 
