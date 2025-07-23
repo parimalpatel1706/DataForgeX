@@ -25,7 +25,7 @@ def result(marks):
         result='fail'
     else:
         reult='success'
-    return redirect(url_for(result,score=marks))
+    return redirect(url_for(result,score=marks))# dynamic URL process
 
 
 if __name__=='__main__':
